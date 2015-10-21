@@ -1,4 +1,14 @@
 /* =Base */
+
+@font-face{
+	font-family: 'LightFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
 body {
     font-family: 'Inconsolata', ;
     color: $iron;

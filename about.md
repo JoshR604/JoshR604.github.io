@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subtitle: Who Am I?
+subtitle: . . .
 permalink: /about/
 ---
 

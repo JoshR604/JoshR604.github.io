@@ -1,10 +1,10 @@
 # Site settings
 title: Josh R.
 description: >
-  My thoughts on technology, life and stuff.
+  Just another tech blog.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://joshuarussell.ca" # the base hostname & protocol for your site
+url: "http://blog.joshuarussell.ca" # the base hostname & protocol for your site
 
 author:
   fullname: Joshua Russell
