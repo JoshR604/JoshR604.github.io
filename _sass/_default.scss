@@ -1,16 +1,16 @@
 /* =Base */
 
-@font-face{
-	font-family: 'LightFont';
-	src: url('WebFont.eot');
-	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-	     url('WebFont.woff') format('woff'),
-	     url('WebFont.ttf') format('truetype'),
-	     url('WebFont.svg#webfont') format('svg');
+@font-face {
+  font-family: 'LightFont';
+  src: url("/assets/vendor/font/Light/aleo-light-webfont.eot");
+  src: url("/assets/vendor/font/Light/aleo-light-webfont.eot?#iefix") format("embedded-opentype"),
+  url("/assets/vendor/font/Light/aleo-light-webfont.woff") format("woff"),
+  url("/assets/vendor/font/Light/aleo-light-webfont.ttf") format("truetype"),
+  url("/assets/vendor/font/Light/aleo-light-webfont.svg#webfont") format("svg");
 }
 
 body {
-    font-family: 'Inconsolata', ;
+    font-family: 'LightFont', ;
     color: $iron;
     background-color: $dorian;
 }
@@ -113,7 +113,9 @@ strong {
 }
 
 .menu__entry a {
-    font-weight: 400;
+    font-weight: 900;
+		font-size: 22px;
+		color:#CC6600;
 }
 
 .social-links {
@@ -138,6 +140,8 @@ strong {
 .page-title__text {
     font-weight: 700;
     font-size: 70px;
+		color:$iron;
+
 }
 
 .page-title__subtitle {
@@ -152,6 +156,8 @@ strong {
 
 .post-title__text {
     font-size: 40px;
+		color:$iron;
+
 }
 
 .post-title__subtitle {
@@ -171,8 +177,8 @@ strong {
 }
 
 .post-teaser__title {
-    font-size: 22px;
-    color: $iron;
+    font-size: 32px;
+		color:#CC6600;
 }
 
 .post-teaser__date {
