@@ -1,7 +1,7 @@
 ---
 layout: indexpage
-title: Blog
-subtitle: My thoughts on tech and such!
+title: Articles
+subtitle: My Writings
 ---
 
 <ul class="list-posts">
@@ -9,7 +9,7 @@ subtitle: My thoughts on tech and such!
         <li class="post-teaser">
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <span class="post-teaser__title">{{ post.title }}</span>
-                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+                <span id="{{ post.title }}" class="post-teaser__date"><script>getDateString({{ post.date | date: "%d, '%B', %Y, " }}'{{ post.title }}');</script></span>
             </a>
         </li>
     {% endfor %}

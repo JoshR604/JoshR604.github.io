@@ -10,7 +10,7 @@ layout: default
             <li class="post-teaser">
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <span class="post-teaser__title">{{ post.title }}</span>
-                    <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+                    <span id="{{ post.title }}" class="post-teaser__date"><script>getDateString({{ post.date | date: "%d, '%B', %Y, " }}'{{ post.title }}');</script></span>
                 </a>
             </li>
             {% assign empty_category = false %}
@@ -26,3 +26,5 @@ layout: default
 </ul>
 
 {% include page/explore.html %}
+
+{% include page/brandishdisplay.html %}

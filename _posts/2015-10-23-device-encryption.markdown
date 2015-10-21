@@ -1,21 +1,11 @@
 ---
 layout: post
-title:  "Sample post from Daktilo"
-subtitle: "What you can do with it!"
-date:   2014-08-19 23:56:45
+title:  "Device Encryption"
+subtitle: "Is it worth it?"
+date:   2014-10-23 23:56:45
 categories: [tool]
 ---
 
-Just a sample post to show some of the *typography* elements supported from
-**daktilo** theme.
-
-___
-
-A blockquote:
-
-> We are Hitchhikers in the road of open source knowledge.
-
-## Header 2
 
 Duis lacinia commodo dui, vel aliquam metus hendrerit eu. Integer et scelerisque dui. Sed nec molestie quam. Donec sit amet nisl a massa commodo ultrices nec quis nunc. Aenean aliquet eu arcu adipiscing dignissim. Nunc dictum elit vitae dolor molestie aliquet.
 
