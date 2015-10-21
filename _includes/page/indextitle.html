@@ -1,0 +1,47 @@
+<h1 class="page-title">
+    <div class="page-title__text">{{ page.title }}</div>
+    <div id="multi-lingual-subtitle" class="page-title__subtitle"></div>
+</h1>
+<script>
+
+function getGreeting(n){
+  var greeting = ""
+  switch (n){
+    case 0:
+      greeting = "Hola y bienvenido!"
+      break;
+    case 1:
+      greeting = "Bonjour et bienvenue!"
+      break;
+    case 2:
+      greeting = "سلام و خوش آمدید"
+      break;
+    case 3:
+      greeting = "你好，欢迎光临!"
+      break;
+    case 4:
+      greeting = "ハロー、ようこそ!"
+      break;
+    case 5:
+      greeting = "Hallo und Willkommen!"
+      break;
+    case 6:
+      greeting = "Ciao e Benvenuto!"
+      break;
+    default:
+      greeting = "Hello and welcome!"
+      break;
+  }
+  return greeting;
+}
+
+function getRandomNum(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+var greeting = getGreeting(getRandomNum(0, 7));
+
+document.getElementById("multi-lingual-subtitle").innerHTML = greeting;
+
+</script>
