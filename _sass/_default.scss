@@ -70,7 +70,7 @@ blockquote {
 }
 
 strong {
-    color: $iron;
+    color: $accent;
 }
 
 /* =Header */
@@ -115,7 +115,7 @@ strong {
 .menu__entry a {
     font-weight: 900;
 		font-size: 22px;
-		color:#CC6600;
+		color:$accent;
 }
 
 .social-links {
@@ -178,7 +178,7 @@ strong {
 
 .post-teaser__title {
     font-size: 32px;
-		color:#CC6600;
+		color:$accent;
 }
 
 .post-teaser__date {
@@ -193,6 +193,14 @@ strong {
     font-weight: 700;
     color: $iron;
     text-align: center;
+}
+
+/* =BrandishDisplay */
+
+.brandish-display {
+	text-align: center;
+	color: $cloudy;
+	margin-top: 25px;
 }
 
 /* =Explore */
