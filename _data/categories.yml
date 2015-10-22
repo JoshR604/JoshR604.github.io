@@ -8,4 +8,7 @@
   name: Productivity
 
 - slug: business
-  name: Business  
+  name: Business
+
+- slug: development
+  name: Development

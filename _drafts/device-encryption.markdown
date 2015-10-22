@@ -2,7 +2,7 @@
 layout: post
 title:  "Device Encryption"
 subtitle: "Is it worth it?"
-date:   2014-10-23 23:56:45
+date:   2015-10-23 23:56:45
 categories: [tool]
 ---
 

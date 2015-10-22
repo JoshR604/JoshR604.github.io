@@ -5,7 +5,11 @@ subtitle: My Writings
 ---
 
 <ul class="list-posts">
+    {% assign is_empty = true %}
     {% for post in site.posts %}
+      {% if post.categories contains page.category %}
+        {% assign is_empty = false %}
+      {% endif %}
         <li class="post-teaser">
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <span class="post-teaser__title">{{ post.title }}</span>
@@ -13,4 +17,12 @@ subtitle: My Writings
             </a>
         </li>
     {% endfor %}
+
+    {% if is_empty %}
+        <li class="empty-post-list">
+            Articles are currently under instensive development,
+            please come back soon to read them!
+        </li>
+    {% endif %}
+
 </ul>

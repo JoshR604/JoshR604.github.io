@@ -3,13 +3,19 @@ layout: post
 title:  "Cross Platform Solutions"
 subtitle: "When to use them for mobile application development?"
 date:   2015-10-22 23:34:01
-categories: [design, tool]
+categories: [business, development, tool]
 ---
 Have you ever heard this line before:
 
 ___
 
-> Build once and use everywhere.
+> Build once and deploy everywhere.
+
+Doesn't that sound just great? To be able to develop one single code base and not have to worry about managing different projects, different operating systems or different languages nor all the baggage those particulars bring along with them such as: extensive version control, fine-tuned build processes, device-specific limitations, and the need for more developers on your team.
+
+In the business aspect, cross-platform presents all of these as benefits and are very alluring to companies trying to capture both sides of the market (iOS & Android). You can be saving potentially thousands of dollars while at the same time allowing for your software to reach more market share by not having to develop two different applications with more developers on different platforms.
+
+
 
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -30,5 +36,3 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help -->
-
-HEH!
