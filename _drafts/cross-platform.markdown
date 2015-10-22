@@ -13,7 +13,7 @@ ___
 
 Doesn't that sound just great? To be able to develop one single code base and not have to worry about managing different projects, different operating systems or different languages nor all the baggage those particulars bring along with them such as: extensive version control, fine-tuned build processes, device-specific limitations, and the need for more developers on your team.
 
-In the business aspect, cross-platform presents all of these as benefits and are very alluring to companies trying to capture both sides of the market (iOS & Android). You can be saving potentially thousands of dollars while at the same time allowing for your software to reach more market share by not having to develop two different applications with more developers on different platforms.
+To a business, all of these seem like benefits and are very alluring to smaller companies who are trying to capture both sides of the market (iOS & Android). Theoretically, many thousands of dollars can be saved -- from reduced development costs to reduced maintenance costs.
 
 
 
