@@ -7,7 +7,7 @@ subtitle: My Writings
 <ul class="list-posts">
     {% assign is_empty = true %}
     {% for post in site.posts %}
-      {% if post.categories contains page.category %}
+      {% if post.title != null %}
         {% assign is_empty = false %}
       {% endif %}
         <li class="post-teaser">

@@ -3,7 +3,7 @@ layout: post
 title:  "Device Encryption"
 subtitle: "Is it worth it?"
 date:   2015-10-23 23:56:45
-categories: [tool]
+categories: [tools]
 ---
 
 Duis lacinia commodo dui, vel aliquam metus hendrerit eu. Integer et scelerisque dui. Sed nec molestie quam. Donec sit amet nisl a massa commodo ultrices nec quis nunc. Aenean aliquet eu arcu adipiscing dignissim. Nunc dictum elit vitae dolor molestie aliquet.
