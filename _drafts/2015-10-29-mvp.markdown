@@ -6,6 +6,10 @@ date:   2015-10-29 22:56:05
 categories: [business, development]
 ---
 
-A minimal viable product (in the development world) is something that you can quickly develop and release to your market in order to get feedback.  
+A minimal viable product (in the development world) is something that you can quickly develop and release to your target market in order to get feedback.  
 
-This initial release is not a proof of concept or a prototype -- it is a product that has roughly 20% of all your needed functionality to solve 80% of your customers problems.
+This initial release is not a proof of concept or a prototype -- it is a finished product that has roughly 20% of all your needed functionality to solve 80% of your customers' problems.
+
+Getting feedback early in your product's life cycle will allow you to more easily make changes to your product and have a more successful product as it matures since you had gotten direct feedback from your target market. 
+
+Having to be able to change your product on the fly leads the way for your development to be agile.
