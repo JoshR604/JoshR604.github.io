@@ -8,7 +8,7 @@ set :repo_url, "https://github.com/JoshR604/JoshR604.github.io.git"
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
- set :deploy_to, "/var/www/#{fetch(:application)}"
+ set :deploy_to, "/var/www/#{fetch(:application)}/public"
 
 
 namespace :deploy do
@@ -23,7 +23,7 @@ namespace :deploy do
     before :restart, :build_public do
     	on roles(:app) do
        		within release_path do
-         		execute '/home/rails/.rvm/gems/ruby-2.1.5/wrappers/jekyll',  "build --destination public"
+         		execute :jekyll,  "build --destination public"
       		end
      	end
    	end
