@@ -8,3 +8,27 @@
  DEBUG [b7514c99] Running ~/.rvm/bin/rvm version as deploy@192.34.59.96
  DEBUG [b7514c99] Command: ~/.rvm/bin/rvm version
  DEBUG [b7514c99] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-15 19:53:48 -0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5d4c1709] Running ~/.rvm/bin/rvm version as deploy@192.34.59.96
+ DEBUG [5d4c1709] Command: ~/.rvm/bin/rvm version
+ DEBUG [5d4c1709] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-15 19:54:50 -0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2810fd34] Running ~/.rvm/bin/rvm version as deploy@192.34.59.96
+ DEBUG [2810fd34] Command: ~/.rvm/bin/rvm version
+ DEBUG [2810fd34] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-15 20:07:30 -0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3eddd088] Running ~/.rvm/bin/rvm version as deploy@192.34.59.96
+ DEBUG [3eddd088] Command: ~/.rvm/bin/rvm version
+ DEBUG [3eddd088] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-15 20:26:16 -0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ab154ff8] Running ~/.rvm/bin/rvm version as deploy@192.34.59.96
+ DEBUG [ab154ff8] Command: ~/.rvm/bin/rvm version
+ DEBUG [ab154ff8] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
