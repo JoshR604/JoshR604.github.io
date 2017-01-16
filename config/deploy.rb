@@ -1,33 +1,25 @@
 # config valid only for current version of Capistrano
 lock "3.7.1"
 
-set :application, "josh_tech_blog"
-set :repo_url, "https://github.com/JoshR604/JoshR604.github.io.git"
-
+set :application, "techblog.com"
+set :repo_url, "git@github.com:JoshR604/JoshR604.github.io.git"
+set :user, "deploy"
+set :scm, :git
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
- set :deploy_to, "/var/www/#{fetch(:application)}/public"
+ set :deploy_to, "/var/www/#{fetch(:application)}"
 
 
 namespace :deploy do
-	desc 'Restart application'
-    task :restart do
-    	on roles(:app), in: :sequence, wait: 5 do
-      	# Your restart mechanism here, for example:
-       	# execute :touch, release_path.join('tmp/restart.txt')
-     	end
-   	end
- 
-    before :restart, :build_public do
+    task :update_jekyll do
     	on roles(:app) do
-       		within release_path do
-         		execute :jekyll,  "build --destination public"
+       		within "#{deploy_to}/current" do
+         		execute :jekyll,  "build"
       		end
      	end
    	end
-	after :publishing, :restart
 end
 
 # Default value for :format is :airbrussh.
