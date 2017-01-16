@@ -1,7 +1,7 @@
 <div class="about">
     <div class="about__devider">*****</div>
     <div class="about__text">
-        Written by <strong> {% if page.author.fullname %} {{ page.author.fullname }} {% else %} {{ site.author.fullname }} {% endif %}</strong>
+        Written by  <a href="{{ '/about' | prepend: site.baseurl }}"><strong>{% if page.author.fullname %}{{ page.author.fullname }}{% else %} {{ site.author.fullname }}  {% endif %}</strong></a>
         on <strong id="{{ page.title }}"><script>getDateString({{ page.date | date: "%d, '%B', %Y, " }}'{{ page.title }}');</script></strong>
     </div>
 </div>
