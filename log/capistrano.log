@@ -2,3 +2,9 @@
   INFO ---------------------------------------------------------------------------
   INFO START 2017-01-15 19:39:59 -0800 cap production deploy
   INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-15 19:51:05 -0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b7514c99] Running ~/.rvm/bin/rvm version as deploy@192.34.59.96
+ DEBUG [b7514c99] Command: ~/.rvm/bin/rvm version
+ DEBUG [b7514c99] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
